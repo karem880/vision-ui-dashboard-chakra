@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* Vision UI Free Chakra - v1.0.0
+* karem mahmoud Chakra - v1.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/vision-ui-free-chakra
@@ -36,7 +36,7 @@ import GitHubButton from "react-github-btn";
 import { Separator } from "components/Separator/Separator";
 import PropTypes from "prop-types";
 import React, { useState } from "react";
-import { FaTwitter, FaFacebook } from "react-icons/fa";
+import { FaTwitter, FaFacebook, FaLinkedin } from "react-icons/fa";
 
 export default function Configurator(props) {
   const { secondary, isOpen, onClose, fixed, ...rest } = props;
@@ -99,7 +99,7 @@ export default function Configurator(props) {
               <Box>
                 <Box>
                   <Link
-                    href='https://www.creative-tim.com/product/vision-ui-dashboard-chakra'
+                    href='https://karem-mahmoud-dev.vercel.app/'
                     w='100%'
                     mb='16px'>
                     <Button
@@ -110,11 +110,11 @@ export default function Configurator(props) {
                       fontSize='xs'
                       variant='brand'
                       px='30px'>
-                      Free Download
+                      visit me
                     </Button>
                   </Link>
                   <Link
-                    href='https://demos.creative-tim.com/docs-vision-ui-dashboard-chakra/'
+                    href='https:karem-mahmoud-dev.vercel.app/'
                     w='100%'>
                     <Button
                       w='100%'
@@ -133,7 +133,7 @@ export default function Configurator(props) {
                   w='100%'
                   mb='16px'>
                   <GitHubButton
-                    href='https://github.com/creativetimofficial/vision-ui-dashboard-chakra'
+                    href='https://karem-mahmoud-dev.vercel.app/'
                     data-icon='octicon-star'
                     data-show-count='true'
                     aria-label='Star creativetimofficial/vision-ui-dashboard-chakra on GitHub'>
@@ -148,17 +148,17 @@ export default function Configurator(props) {
                     <Flex justifyContent='center' alignContent='center'>
                       <Link
                         isExternal='true'
-                        href='https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fvision-ui-dashboard-chakra&text=Check%20vision%20UI%20Dashboard%20made%20by%20%40CreativeTim%20and%20%40simmmple_web%20%23webdesign%20%23dashboard%20%23chakra'>
+                        href='https://www.linkedin.com/in/karem-mahmoud-963b84262/'>
                         <Button
                           colorScheme='twitter'
-                          leftIcon={<FaTwitter />}
+                          leftIcon={<FaLinkedin />}
                           me='10px'>
-                          <Text>Tweet</Text>
+                          <Text>linked in</Text>
                         </Button>
                       </Link>
                       <Link
                         isExternal='true'
-                        href='https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fvision-ui-dashboard-chakra'>
+                        href='https://www.facebook.com/profile.php?id=100010546894506&locale=ar_AR'>
                         <Button
                           colorScheme='facebook'
                           leftIcon={<FaFacebook />}>

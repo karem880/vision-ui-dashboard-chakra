@@ -1,12 +1,12 @@
 /*!
 
 =========================================================
-* Vision UI Free Chakra - v1.0.0
+* karem mahmoud UI Free Chakra - v1.0.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/vision-ui-free-chakra
+* Product Page: https://www.creative-tim.com/product/karem mahmoud-ui-free-chakra
 * Copyright 2021 Creative Tim (https://www.creative-tim.com/)
-* Licensed under MIT (https://github.com/creativetimofficial/vision-ui-free-chakra/blob/master LICENSE.md)
+* Licensed under MIT (https://github.com/creativetimofficial/karem mahmoud-ui-free-chakra/blob/master LICENSE.md)
 
 * Design and Coded by Simmmple & Creative Tim
 
@@ -177,7 +177,7 @@ export default function AuthNavbar(props) {
           />
         </Box>
         {linksAuth}
-        <Link href='https://creative-tim.com/product/vision-ui-dashboard-chakra'>
+        <Link href='https://karem-mahmoud-dev.vercel.app'>
           <Button
             fontSize='xs'
             variant='brand'
@@ -187,8 +187,7 @@ export default function AuthNavbar(props) {
               sm: "none",
               lg: "flex",
             }}>
-            Free Download
-          </Button>
+visit me          </Button>
         </Link>
       </Flex>
     </Flex>

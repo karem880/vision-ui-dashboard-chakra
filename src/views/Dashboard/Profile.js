@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* Vision UI Free Chakra - v1.0.0
+* karem mahmoud - v1.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/vision-ui-free-chakra
@@ -110,7 +110,7 @@ function Profile() {
 									color='#fff'
 									fontWeight='bold'
 									ms={{ sm: '8px', md: '0px' }}>
-									Mark Johnson
+									karem mahmoud
 								</Text>
 								<Text fontSize={{ sm: 'sm', md: 'md' }} color='gray.400'>
 									mark@simmmple.com
@@ -182,7 +182,7 @@ function Profile() {
 							Welcome back!
 						</Text>
 						<Text color='#fff' fontSize='sm' mb='auto'>
-							Nice to see you, Mark Johnson!
+							Nice to see you,karem mahmoud
 						</Text>
 						<Button alignSelf='flex-start' variant='no-hover' bg='transparent' p='0px'>
 							<Text
@@ -218,7 +218,7 @@ function Profile() {
 								Car Informations
 							</Text>
 							<Text fontSize='sm' color='gray.400'>
-								Hello, Mark Johnson! Your Car is ready.
+								Hello, karem mahmoud Your Car is ready.
 							</Text>
 						</Flex>
 					</CardHeader>
@@ -237,22 +237,22 @@ function Profile() {
 									variant='vision'>
 									<CircularProgressLabel>
 										<Flex direction='column' justify='center' align='center'>
-											<LightningIcon w='14px' h='22px' mb='8px' />
+											<FaFacebook w='14px' h='22px' mb='8px' />
 											<Text color='#fff' fontSize='36px' fontWeight='bold' mb='6px'>
-												68%
+												70%
 											</Text>
 											<Text color='gray.400' fontSize='sm'>
-												Current load
+												post loading
 											</Text>
 										</Flex>
 									</CircularProgressLabel>
 								</CircularProgress>
 								<Flex direction='column' mt='18px' align='center'>
 									<Text color='#fff' fontSize='lg' fontWeight='bold' mb='2px'>
-										0h 58 min
+										by karem mahmoud
 									</Text>
 									<Text color='gray.500' fontSize='sm'>
-										Time to full charge
+										Time to  charge
 									</Text>
 								</Flex>
 							</Flex>
@@ -272,7 +272,7 @@ function Profile() {
 											Battery Health
 										</Text>
 										<Text color='#fff' fontSize='22px' fontWeight='bold'>
-											76%
+											80%
 										</Text>
 									</Flex>
 									<IconBox bg='brand.200' w='56px' h='56px' direction='column'>
@@ -292,7 +292,7 @@ function Profile() {
 											Efficiency
 										</Text>
 										<Text color='#fff' fontSize='22px' fontWeight='bold'>
-											+20%
+											+50%
 										</Text>
 									</Flex>
 									<Box maxH='75px'>
@@ -313,7 +313,7 @@ function Profile() {
 											Consumption
 										</Text>
 										<Text color='#fff' fontSize='22px' fontWeight='bold'>
-											163W/km
+											250W/km
 										</Text>
 									</Flex>
 									<IconBox bg='brand.200' w='56px' h='56px'>
@@ -332,7 +332,7 @@ function Profile() {
 											This Week
 										</Text>
 										<Text color='#fff' fontSize='22px' fontWeight='bold'>
-											1.342km
+											1.500km
 										</Text>
 									</Flex>
 									<Box maxH='75px'>
@@ -360,8 +360,8 @@ function Profile() {
 					<CardBody px='5px'>
 						<Flex direction='column'>
 							<Text fontSize='sm' color={'gray.400'} fontWeight='400' mb='15px'>
-								Hi, I’m Mark Johnson, Decisions: If you can’t decide, the answer is no. If two equally
-								difficult paths, choose the one more painful in the short term (pain avoidance is
+								Hi, I’m karem mahmoud , Decidifficult paths, choose sions: If you can’t decide, the answer is no. If two equally
+								the one more painful in the short term (pain avoidance is
 								creating an illusion of equality).
 							</Text>
 							<Separator mb='30px' />
@@ -370,7 +370,7 @@ function Profile() {
 									Full Name:{' '}
 								</Text>
 								<Text fontSize='sm' color='#fff' fontWeight='400'>
-									Mark Johnson
+									karem mahmoud
 								</Text>
 							</Flex>
 							<Flex align='center' mb='18px'>

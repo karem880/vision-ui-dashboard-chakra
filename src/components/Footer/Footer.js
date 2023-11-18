@@ -1,14 +1,14 @@
 /*!
 
 =========================================================
-* Vision UI Free Chakra - v1.0.0
+* karem mahmoud Chakra - v1.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/vision-ui-free-chakra
-* Copyright 2021 Creative Tim (https://www.creative-tim.com/)
+* Copyright 2021 karem mahmoud (https://www.creative-tim.com/)
 * Licensed under MIT (https://github.com/creativetimofficial/vision-ui-free-chakra/blob/master LICENSE.md)
 
-* Design and Coded by Simmmple & Creative Tim
+* Design and Coded by Simmmple & karem mahmoud
 
 =========================================================
 
@@ -29,7 +29,7 @@ export default function Footer(props) {
       }}
       alignItems={{
         base: "center",
-        xl: "start",
+        xl: "center",
       }}
       justifyContent='space-between'
       px='30px'
@@ -39,27 +39,25 @@ export default function Footer(props) {
         color='white'
         textAlign={{
           base: "center",
-          xl: "start",
+          xl: "center",
         }}
         mb={{ base: "20px", xl: "0px" }}>
         &copy; {1900 + new Date().getYear()},{" "}
         <Text as='span'>
           {document.documentElement.dir === "rtl"
-            ? " مصنوع من ❤️ بواسطة"
-            : "Made with ❤️ by "}
+            ? " مصممه بالكود باستخدام "
+            : "all cobyrights for @ "}
         </Text>
-        <Link href='https://www.simmmple.com' target='_blank'>
+        <Link href='https://karem-mahmoud-dev.vercel.app' target='_blank'>
           {document.documentElement.dir === "rtl"
-            ? " توقيت الإبداعية"
-            : "Simmmple "}
+            ? " كارم محمود "
+            : "karem mahmoud"}
         </Link>
         &
-        <Link href='https://www.creative-tim.com' target='_blank'>
-          {document.documentElement.dir === "rtl" ? "سيممبل " : " Creative Tim"}
+        <Link href='https://karem-mahmoud-dev.vercel.app' target='_blank'>
+          {document.documentElement.dir === "rtl" ? "بسيطه " : " simple"}
         </Link>
-        {document.documentElement.dir === "rtl"
-          ? "للحصول على ويب أفضل"
-          : " for a better web"}
+       
       </Text>
       <List display='flex'>
         <ListItem
@@ -67,10 +65,10 @@ export default function Footer(props) {
             base: "20px",
             md: "44px",
           }}>
-          <Link color='white' fontSize='sm' href='https://www.simmmple.com'>
+          <Link color='white' fontSize='sm' href='https://karem-mahmoud-dev.vercel.app'>
             {document.documentElement.dir === "rtl"
-              ? "توقيت الإبداعية"
-              : "Simmmple"}
+              ? "كارم محمود"
+              : "karem"}
           </Link>
         </ListItem>
         <ListItem
@@ -78,8 +76,8 @@ export default function Footer(props) {
             base: "20px",
             md: "44px",
           }}>
-          <Link color='white' fontSize='sm' href='https://www.creative-tim.com'>
-            {document.documentElement.dir === "rtl" ? "سيممبل" : "Creative Tim"}
+          <Link color='white' fontSize='sm' href='https://karem-mahmoud-dev.vercel.app'>
+            {document.documentElement.dir === "rtl" ? "karem mahmoud" : "karem mahmoud"}
           </Link>
         </ListItem>
         <ListItem
@@ -90,7 +88,7 @@ export default function Footer(props) {
           <Link
             color='white'
             fontSize='sm'
-            href='https://creative-tim.com/blog'>
+            href='https://karem-mahmoud-dev.vercel.app'>
             {document.documentElement.dir === "rtl" ? "مدونة" : "Blog"}
           </Link>
         </ListItem>
@@ -98,7 +96,7 @@ export default function Footer(props) {
           <Link
             color='white'
             fontSize='sm'
-            href='https://www.creative-tim.com/license'>
+            href='https://karem-mahmoud-dev.vercel.app'>
             {document.documentElement.dir === "rtl" ? "رخصة" : "License"}
           </Link>
         </ListItem>
